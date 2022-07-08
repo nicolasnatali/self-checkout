@@ -1,6 +1,7 @@
-#include <iostream>
+#include "GroceryStore.h"
 
 int main() {
-    std::cout << "Test" << std::endl;
+    GroceryStore groceryStore;
+    groceryStore.run();
     return 0;
 }
